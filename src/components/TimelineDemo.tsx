@@ -6,19 +6,19 @@ import Image from "next/image";
 export function TimelineDemo() {
   const data = [
     {
-      title: "2025",
+      title: "2026",
       content: (
         <div>
           <p
             className="mb-8 text-xl font-normal text-[#d8c499]"
             style={{ fontFamily: "neuro" }}
           >
-            Built and launched RepliCast from scratch
+            Full-Stack Developer & Tech Lead at OPM Corporation
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
-              src="/assets/replicast home.png"
-              alt="replicast template"
+              src="/assets/opm.png"
+              alt="opm template"
               width={500}
               height={500}
               className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
@@ -31,15 +31,15 @@ export function TimelineDemo() {
               className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
             />
             <Image
-              src="/assets/results page.png"
-              alt="results page"
+              src="/assets/ridlin.png"
+              alt="ridlin page"
               width={500}
               height={500}
               className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
             />
             <Image
-              src="/assets/docs screenshot.png"
-              alt="docs"
+              src="/assets/avtaar.png"
+              alt="avtaar"
               width={500}
               height={500}
               className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
@@ -49,30 +49,30 @@ export function TimelineDemo() {
       ),
     },
     {
-      title: "Mid 2024",
+      title: "Mid 2025",
       content: (
         <div>
           <p
             className="mb-8 text-lg  text-[#e8dcc0]"
             style={{ fontFamily: "nolinga" }}
           >
-            I usually run out of copy, but when I see content this big, I resist
-            the urge to Lorem Ipsum it. Lorem Ipsum is for people who gave up. I
-            didn’t. I just panicked creatively and kept typing.
+            Joined OPM Corporation as a Backend Developer and contributed to
+            multiple production-grade systems including the main website, admin
+            panel, and backend APIs.
           </p>
           <p
             className="mb-8 text-lg  text-[#e8dcc0] md:text-lg "
             style={{ fontFamily: "nolinga" }}
           >
-            I started learning Full-Stack Development at Innomatics Research
-            Labs in Hyderabad while doing B.Com—because who needs sleep, right?
-            I even did my full-stack internship there after that point (proof
-            that caffeine and curiosity go a long way).
-            <br /> Now that I switched from commerce into code I build apps
-            instead of spreadsheets. I went directly from Googling “what is a
-            div?” to also shipping full-stack projects at 2AM with just 27 open
-            tabs and absolutely zero regrets. <br /> Here’s what I’ve built, as
-            I promise to you that most bugs are now gone.
+            Designed and developed scalable REST APIs, implemented secure
+            authentication & authorization flows, managed MongoDB databases, and
+            optimized server performance.
+            <br /> Led backend architecture for new modules, handled deployment
+            on AWS, configured domains & SSL, and ensured seamless integration
+            between frontend, admin panel, and backend services.
+            <br /> Stepped up into a Tech Lead role during critical phases,
+            coordinated with the team, managed delivery timelines, and
+            successfully deployed projects to production.
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
@@ -116,16 +116,16 @@ export function TimelineDemo() {
             className="mb-4 text-lg text-[#d8c499] md:text-lg "
             style={{ fontFamily: "nolinga" }}
           >
-            Once upon a time, I was balancing ledgers. Now I balance frontend
-            and backend like a circus juggler with caffeine.
+            Key contributions and responsibilities at OPM Corporation.
           </p>
           <div className="mb-8 space-y-3 text-left">
             {[
-              "Built a MongoDB-powered app. NoSQL? No sleep either.",
-              "Styled everything with Tailwind CSS — because vanilla CSS gave me trust issues.",
-              "Added Framer Motion & GSAP animations that bounce smoother than my grades in B.Com.",
-              "Refactored code like a champ — even Stack Overflow blushed.",
-              "Officially declared war on bugs. Debugged them with console.logs and divine intervention.",
+              "Architected and developed scalable backend systems using Node.js and Express.",
+              "Designed MongoDB schemas, implemented indexing strategies, and optimized queries.",
+              "Built secure authentication systems using JWT and role-based access control.",
+              "Led backend development for Admin Panel, Main Website, and API services.",
+              "Managed AWS deployments, domain configuration, SSL setup, and CI/CD workflows.",
+              "Coordinated with frontend and stakeholders to ensure timely project delivery.",
             ].map((line, idx) => (
               <div
                 key={idx}
@@ -140,7 +140,7 @@ export function TimelineDemo() {
 
           <div className="grid grid-cols-2 gap-4">
             <Image
-              src="https://preview.redd.it/l022ux9vti781.jpg?width=320&crop=smart&auto=webp&s=dfcf706c0f12f236b84a3eaace917ab14e38b159"
+              src="https://devhumor.com/content/uploads/images/April2025/vibe_coding_security_and_performance.jpeg"
               alt="hero template"
               width={500}
               height={500}
@@ -154,14 +154,14 @@ export function TimelineDemo() {
               className="h-auto w-full rounded-lg object-contain shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <Image
-              src="https://devhumor.com/content/uploads/images/April2017/its-not-a-bug-animation.gif"
+              src="https://devhumor.com/content/uploads/images/March2017/not-lazy-animation.gif"
               alt="bento template"
               width={500}
               height={500}
               className="h-auto w-full rounded-lg object-contain shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <Image
-              src="https://devhumor.com/content/uploads/images/June2024/error_403_vote_for_bidden.jpg"
+              src="https://devhumor.com/content/uploads/images/June2024/crying_dev_frustration.jpg"
               alt="cards template"
               width={500}
               height={500}

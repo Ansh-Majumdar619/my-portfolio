@@ -6,8 +6,41 @@ import { Tabs } from './ui/tabs';
 export function TabsDemo() {
   const tabs = [
     {
-      title: 'RepliCast',
-      value: 'product',
+      title: "OPM Corporation",
+      value: "opm",
+      content: (
+        <TabContent
+          title="OPM Corporation Tab"
+          imageSrc="/assets/opm.png"
+          linkHref="https://opmcorporation.com/"
+        />
+      ),
+    },
+    {
+      title: "Avtaar Music",
+      value: "avtaar",
+      content: (
+        <TabContent
+          title="Avtaar Music Tab"
+          imageSrc="/assets/avtaar.png"
+          linkHref="https://avtaarmusic.com/"
+        />
+      ),
+    },
+    {
+      title: "Ridlin",
+      value: "ridlin",
+      content: (
+        <TabContent
+          title="Avtaar Music Tab"
+          imageSrc="/assets/ridlin.png"
+          linkHref="https://ridlin.com/"
+        />
+      ),
+    },
+    {
+      title: "RepliCast",
+      value: "product",
       content: (
         <TabContent
           title="RepliCast Tab"
@@ -17,8 +50,8 @@ export function TabsDemo() {
       ),
     },
     {
-      title: 'PrepTalk',
-      value: 'services',
+      title: "PrepTalk",
+      value: "services",
       content: (
         <TabContent
           title="PrepTalk Tab"
@@ -28,8 +61,8 @@ export function TabsDemo() {
       ),
     },
     {
-      title: 'StayFinder',
-      value: 'playground',
+      title: "StayFinder",
+      value: "playground",
       content: (
         <TabContent
           title="StayFinder Tab"
@@ -39,8 +72,8 @@ export function TabsDemo() {
       ),
     },
     {
-      title: 'Uber',
-      value: 'content',
+      title: "Uber",
+      value: "content",
       content: (
         <TabContent
           title="Uber Tab"
@@ -50,8 +83,8 @@ export function TabsDemo() {
       ),
     },
     {
-      title: 'BMW',
-      value: 'random',
+      title: "BMW",
+      value: "random",
       content: (
         <TabContent
           title="BMW Moto Tab"
